@@ -1,5 +1,4 @@
-class DisjointSet:
-
+class DisjointSet:    
     def __init__(self, n):        
         self.ranks = [1 for _ in range(n)]
         self.roots = [i for i in range(n)]
